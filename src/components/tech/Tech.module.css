@@ -1,0 +1,38 @@
+.wrapper{
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 2rem 0;
+
+}
+
+.headerleft{
+
+    width: 40%;
+
+    padding-left: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.headerright{
+
+    display: flex;
+    font-size: 2rem;
+}
+
