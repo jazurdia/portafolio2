@@ -9,7 +9,7 @@
 
 .cimage, .ctext, .cimage-reverse, .ctext-reverse {
     width: 50vw;
-    transition: transform 0.5s ease-in-out;
+    transition: transform 1s ease-in-out;
 }
 
 .ctext, .ctext-reverse {
