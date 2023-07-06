@@ -7,8 +7,11 @@ function Aboutme() {
     const [isImageLeft, setIsImageLeft] = useState(true)
 
     const handleClick = () => {
-        setShowinfo(!showinfo)
         setIsImageLeft(!isImageLeft)
+        //setShowinfo(!showinfo)
+        setTimeout(() => {
+            setShowinfo(!showinfo)
+        }, 500)
     }
 
     const imageClass = isImageLeft? styles.cimage : styles["cimage-reverse"]
