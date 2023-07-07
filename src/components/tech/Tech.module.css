@@ -9,45 +9,49 @@
     width: 100vw;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: left;
     align-items: center;
-    padding: 2rem 1.5rem;
+    padding: 2rem 0;
 
 }
 
 
 .headerleft{
-    width: 40%;
+    width: 50vw;
     display: flex;
     flex-direction: column;
-    justify-content: left;
-    align-items:  center;
+    justify-content: center;
+    align-items:  flex-start;
 }
 
 .nombre{
     font-size: 4rem;
     font-weight: 700;
+    padding: 0 3rem;
 }
 
 .descripcion {
+    padding: 0 1.5rem;
     font-size: 1.5rem;
     font-weight: 400;
 }
 
 .headerright{
+    width: 45vw;
     display: flex;
     font-size: 2rem;
-    padding: 0 5rem;
 }
 
 .body{
     width: 100vw;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #0675AC;
+}
 
+.selected {
+    transition: transform 0.5s ease-in-out;
 }
 
 
