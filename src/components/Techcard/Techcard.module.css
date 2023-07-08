@@ -44,7 +44,7 @@
 
 .langs{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -67,10 +67,17 @@
 
 .selected {
     transition: transform 1s ease-in-out;
+    padding: 2rem 0;
+    font-size: 2rem;
+    font-weight: 700;
+
 }
+
 
 @media screen and (max-width: 1000px){
     .wrapper{
+        width: 100%;
+        height: fit-content;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -79,32 +86,38 @@
     .left{
         width: 80%;
         background-color: transparent !important;
-        padding: 1.5rem 0; /* se debe aplicar el padding a los textos, no al div (horizontal) */
+        padding: 3rem 0; /* se debe aplicar el padding a los textos, no al div (horizontal) */
         flex-direction: column;
     }
 
     .title {
         width: 100%;
-        padding-left: 3rem;
+        font-size: 4rem;
     }
 
     .description {
-        padding: 0 3rem;
+        width: 100%;
+        font-size: 3rem;
     }
 
     .right{
-        width: 100vw;
+        flex-direction: column-reverse;
+        width: 100%;
         padding: 1.5rem 0;
         margin-bottom: 1.5rem;
         background-color: transparent !important;
     }
 
-
-
     .svg {
         width: 150px;
         height: 150px;
         margin: 0.5rem;
+    }
+
+    .selected {
+        font-size: 3rem;
+        font-weight: 700;
+
     }
 
 
