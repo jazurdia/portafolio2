@@ -40,12 +40,6 @@ function Tech() {
                         Tecnologias
                     </h1>
                 </div>
-                <div className={styles.headerright}>
-                    <p className={styles.descripcion}>
-                        Estas son las tecnologías que he implementado en los proyectos que he llevado a cabo.
-                    </p>
-                </div>
-
             </div>
             <div className={styles.body}>
                 <Techcard

@@ -8,7 +8,6 @@ function Aboutme() {
 
     const handleClick = () => {
         setIsImageLeft(!isImageLeft)
-        //setShowinfo(!showinfo)
         setTimeout(() => {
             setShowinfo(!showinfo)
         }, 500)

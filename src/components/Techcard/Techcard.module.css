@@ -51,7 +51,8 @@
 }
 
 .langs{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -83,12 +84,33 @@
 
     .left{
         width: 100vw;
+        background-color: transparent !important;
         padding: 1.5rem 0; /* se debe aplicar el padding a los textos, no al div (horizontal) */
+        flex-direction: column;
+    }
+
+    .title {
+        padding: 0 3rem;
+    }
+
+    .description {
+        padding: 0 3rem;
     }
 
     .right{
         width: 100vw;
         padding: 1.5rem 0;
         margin-bottom: 1.5rem;
+        background-color: transparent !important;
     }
+
+
+
+    .svg {
+        width: 150px;
+        height: 150px;
+        margin: 0.5rem;
+    }
+
+
 }

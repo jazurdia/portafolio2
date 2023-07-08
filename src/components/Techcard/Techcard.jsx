@@ -9,8 +9,10 @@ function Techcard(props) {
         ? ["rgba(6, 117, 172, 1)", "rgba(102, 150, 169, 0.8)"]
         : ["rgba(102, 150, 169, 0.8)", "rgba(6, 117, 172, 1)"];
 
+    const mqColor = props.valcol === "1" ? "rgba(6, 117, 172, 1)" : "rgba(102, 150, 169, 0.8)";
+
     return (
-        <div className={styles.wrapper}>
+        <div className={styles.wrapper} style={{backgroundColor: mqColor}}>
             <div
                 className={styles.left}
                 style={{ backgroundColor: colors[0] }}
