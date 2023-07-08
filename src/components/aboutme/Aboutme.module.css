@@ -1,14 +1,12 @@
 .container {
-    width: 100vw;
+    width: 80%;
     display: flex;
     flex-direction: row;
-    padding: 0;
-    margin: 0;
     background-color: #E0C47A;
 }
 
 .cimage, .ctext, .cimage-reverse, .ctext-reverse {
-    width: 50vw;
+    width: 50%;
     transition: transform 1s ease-in-out;
 }
 
@@ -38,7 +36,7 @@
 
 .title{
     padding: 0 5rem;
-    font-size: 5rem;
+    font-size: 6rem;
 }
 
 .text{
@@ -56,5 +54,16 @@
 @media screen and (max-width: 1000px){
     .container{
         height: 40vh;
+        justify-content: center;
+        align-items: stretch;
     }
+
+    .cimage, .ctext, .cimage-reverse, .ctext-reverse {
+
+    }
+
+    .title{
+        font-size: 4rem;
+    }
+
 }
