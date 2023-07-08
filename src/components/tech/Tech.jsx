@@ -21,12 +21,14 @@ function Tech() {
                     langs={frontend}
                     valcol="1"
                 />
+                <div className={styles.divider}></div>
                 <Techcard
                     title={backendSP.title}
                     description={backendSP.desc}
                     langs={backend}
                     valcol="0"
                 />
+                <div className={styles.divider}></div>
                 <Techcard
                     title={otherTechSP.title}
                     description={otherTechSP.desc}

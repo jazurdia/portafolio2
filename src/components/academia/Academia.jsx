@@ -31,7 +31,6 @@ function Academia() {
                 info={academiainfo[3][2]}
             />
         </div>
-
     </div>
   );
 }
