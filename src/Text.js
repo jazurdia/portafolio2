@@ -49,6 +49,18 @@ const others = [
     ["https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jetbrains/jetbrains-original.svg", "JetBrains"],
 ]
 
+const academiaSP = {
+    title: "Formación Académica",
+}
+
+const academiainfo = [
+    ["Universidad del Valle de Guatemala", "2021-Presente", "Ingeniería en Ciencias de la Computación."],
+    ["Colegio Bilingüe Vistahermosa", "2020" , "Bachillerato en Ciencias y Letras."],
+    ["Certiport", "2019" , "MOS Microsoft Office Access 2016" ],
+    ["Certiport", "2018" , "MOS Microsoft Office Excel 2016" ],
+]
+
+/* Queda pendiente Dale Carnegie en academiainfo, no encuentro el diploma */
 
 
 export { aboutmeSP }
@@ -58,3 +70,5 @@ export { otherTechSP }
 export { frontend }
 export { backend }
 export { others }
+export { academiaSP }
+export { academiainfo }
