@@ -1,9 +1,8 @@
 .container {
-    width: 80%;
+    height: 100vh;
     display: flex;
     flex-direction: row;
     background-color: #E0C47A;
-    margin-bottom: 3rem;
 }
 
 .cimage, .ctext, .cimage-reverse, .ctext-reverse {
@@ -37,13 +36,13 @@
 
 .title{
     padding: 0 5rem;
-    font-size: 6rem;
+    font-size: 8rem;
     text-align: right;
 }
 
 .text{
     padding: 0 5rem;
-    font-size: 2rem;
+    font-size: 4rem;
 
 }
 
